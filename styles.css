@@ -1,0 +1,59 @@
+/*****************************************************************************/
+/* CONFIGURACIONES BÁSICAS ******/
+
+
+/* selector * es decirle a la hoja de estilo que seleccione todo */
+* {
+    /* el largo de la caja (la página) sea igual al ancho de la pantalla */
+    box-sizing: border-box;
+}
+
+body {
+    /* a todo el cuerpo se le asigna un margen de 0px */
+    margin: 0;
+}
+
+/****************************************************************************/
+header {
+    /* background-color: yellow; */
+    /* mostrar como flex (en la misma
+    linea centrado)*/
+    display: flex;
+    /* mostrarlos el flex como columna
+    items abajo de otro */
+    flex-direction: column;
+    /* centrar los items */
+    align-items: center;
+}
+
+#logo {
+    width: 300px;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+
+ul {
+    display: flex;
+    margin: 10px auto;
+}
+
+li {
+    /* sacar las viñetas */
+    list-style: none;
+    /* distancia entre el contenido y
+    el margen de 2px a la izq y a la der*/
+    padding: 0 2rem;
+    
+}
+
+li:hover {
+    color:green;
+}
+
+#unico {
+    color: red;
+}
+
+.general {
+    color: rgb(0, 0, 230);
+}
